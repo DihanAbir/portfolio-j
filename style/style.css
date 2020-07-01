@@ -30,17 +30,40 @@ p{
   -webkit-text-fill-color: transparent;
 }
 button {
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
     border: none ;
+    border: 2px solid salmon;
     background: linear-gradient(45deg , salmon , tomato) ;
+}
+button:hover {
+    
+    background: transparent ;
+    color: salmon;
+    border: 2px solid salmon;
 }
 #dream{
     padding: 20px 0px;
 }
+#bio{
+    padding-top: 20%;
+    padding-left: 65px;
+    width: 35%;
+}
 section{
     height: 750px;
+}
+#talk {
+    margin-left: 12px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent ;
+    color: salmon;
+    border: 2px solid salmon;
 }
 
 /* work section  */
@@ -67,6 +90,11 @@ section{
 img{
     width  : 100%;
 }
+#portfolio_div{
+    text-align: center;
+    width: 100%;
+}
+#portfolio{margin: 30px 0px;/* border: 2px solid salmon; *//* background-color: transparent; *//* color: black; */}
 
 
 /* client review   */
@@ -88,6 +116,67 @@ img{
     color: #0e0e0e;
     font-size: 20px;
 }
+
+/* specilizaed section  */
+.specilized{
+    background-image: url(../images/biography-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 80%;
+    margin-top: 20%;
+    margin: 20% auto 0px;
+    text-align: center;
+
+}
+#spec_header{margin-left: 16px;margin: 0px;}
+#spec_pera{
+    margin-left: 16px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 26px 0px;
+    color: #777;
+}
+.spec-01{
+    background-color: #555FBE;
+    margin: 17px;
+    float: left;
+    width: 24%;
+    color: #fff;
+    padding: 28px 25px;
+    /* border-radius: 37px; */
+    border-bottom-right-radius: 40px;
+}
+
+.spec-description{    
+    padding: 16px;   
+    margin-top: -30px;    
+    border-top: 6px  solid #ffbc00;
+}
+#Web-designing{
+    border-top: 6px  solid #6ab409;
+}
+#Web-devolopment{
+    border-top: 6px  solid #f5969a;
+}
+.spec-description h5{
+    width: 63%;
+    font-size: 26px;
+    margin: 0 auto;
+}
+.spec-description p{
+    color: #d0d0d0;
+}
+
+
+
+
+
+
+
+
+/* message section  */
+
 #message_div{
     width: 60%;
     margin: 60px auto;
